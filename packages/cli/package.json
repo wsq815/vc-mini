@@ -1,0 +1,32 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "vc-mini": "bin/vue.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue-cli-mini"
+  ],
+  "author": "wuson",
+  "engines": {
+    "node": "^12.0.0 || >= 14.0.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "execa": "^6.1.0",
+    "fs-extra": "9.1.0",
+    "inquirer": "^8.2.4",
+    "semver": "^7.3.7"
+  },
+  "devDependencies": {
+    "commander": "^9.3.0",
+    "minimist": "^1.2.6",
+    "slash": "^4.0.0"
+  }
+}
